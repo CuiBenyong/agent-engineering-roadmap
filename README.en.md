@@ -2,7 +2,13 @@
 
 > From calling an LLM API to shipping an agent and keeping it alive in production.
 >
-> [中文](./README.md) · [Online course (132 days, 36 free)](https://course.front-end-js.top/en)
+> [中文](./README.md) · [Online courses](https://course.front-end-js.top/en)
+
+> **Free for a limited time: all 13 courses — 132 days — are open to everyone right now.**
+>
+> No payment, no sign-up. Open any chapter and read it to the end.
+>
+> This is temporary. When paid access returns, **36 days stay free permanently** (the first 1–3 days of each course, plus three courses that are free in full). If you want to work through an entire course, now is the cheap moment to do it.
 
 This roadmap answers one specific question: **if you already know how to code, in what order should you learn things to become an engineer who can ship agent systems independently?**
 
@@ -152,15 +158,17 @@ Turn one sentence into an episode of a vertical-format short drama, then scale i
 | 12 | [Agent Evals and Observability in 7 Days: Turning "Seems Fine" Into Numbers You Can Reproduce](https://course.front-end-js.top/en/learn/agent-evals-7days) | 7 | D1–D2 |
 | 13 | [Agent Security in 5 Days](https://course.front-end-js.top/en/learn/agent-security-5days) | 5 | D1 |
 
-**13 courses, 132 days**, of which **36 days are free**. Every chapter exists in both English and Chinese.
+**13 courses, 132 days.** Every chapter exists in both English and Chinese.
+
+The "Free" column above is the permanent free tier that applies **once paid access returns** (36 days in total). **During the current free period that column does not apply — all 132 days are readable.**
 
 There's also a [cross-course interview question bank](https://course.front-end-js.top/en/interviews). Each question ships with the **reasoning path** (what it's testing → how to decompose it → the conclusion → follow-ups to expect), not just bullet points to memorize.
 
 ---
 
-## Start here, free
+## Start here
 
-If you'd rather sample than follow the sequence, these days are free in full:
+If you'd rather sample than follow the sequence, start here. These stay free **after** the limited-time period ends, so there's no rush on them specifically:
 
 - [LLM API Basics: messages/roles, Tokens, Streaming, Temperature; What an Agent Actually Is](https://course.front-end-js.top/en/learn/agent-30days/day-01)
 - [How Tool Calling Works: JSON Schema, the tool_use Loop; Hand-Writing an Agent Loop With No Framework](https://course.front-end-js.top/en/learn/agent-30days/day-02)

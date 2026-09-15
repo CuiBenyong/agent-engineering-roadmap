@@ -2,7 +2,13 @@
 
 > 从会调 LLM API，到能把一个 Agent 送上线并守住它。
 >
-> [English](./README.en.md) · [在线课程（132 天，36 天免费试读）](https://course.front-end-js.top)
+> [English](./README.en.md) · [在线课程](https://course.front-end-js.top)
+
+> **限时免费：目前全部 13 门课、132 天内容对所有人开放。**
+>
+> 不用付费，也不用注册，点开就能读到正文末尾。
+>
+> 这是限时的。恢复付费之后仍有 **36 天保持长期免费**（每门课的前 1–3 天，外加三门整门免费的入门课）——但如果你想把某一门完整读完，现在是最省事的时候。
 
 这份路线图回答一个具体问题：**一个已经会写代码的人，按什么顺序学，才能成为能独立交付 Agent 系统的工程师？**
 
@@ -152,15 +158,17 @@ Agent 是非确定性的，所以单次运行的成功不构成证据。要把�
 | 12 | [7 天 Agent 评估与可观测](https://course.front-end-js.top/learn/agent-evals-7days) | 7 | D1–D2 |
 | 13 | [5 天 Agent 安全](https://course.front-end-js.top/learn/agent-security-5days) | 5 | D1 |
 
-合计 **13 门课 / 132 天**，其中 **36 天免费试读**，全部中英双语。
+合计 **13 门课 / 132 天**，全部中英双语。
+
+上表「免费试读」一列是**恢复付费后**的长期免费范围（合计 36 天）。**限时免费期间这一列不生效——整张表的 132 天全部可读。**
 
 配套还有一个[跨课程面试题库](https://course.front-end-js.top/interviews)，每道题除了答题要点还写了**分析过程**（这题在考什么 → 怎么拆 → 结论 → 可预期的追问），目的是教推导而不是给要点背。
 
 ---
 
-## 免费资源直达
+## 先看看质量
 
-不想按顺序走、只想先看看质量的，这几天是完整免费的：
+不想按顺序走的，从这几天开始最快。它们在限时免费结束后**依然免费**，所以不急也可以先收藏：
 
 - [LLM API 基础：messages/roles、token、流式、temperature；Agent 到底是什么](https://course.front-end-js.top/learn/agent-30days/day-01)
 - [工具调用原理：JSON Schema、tool_use 循环；不用框架手写 Agent Loop](https://course.front-end-js.top/learn/agent-30days/day-02)
