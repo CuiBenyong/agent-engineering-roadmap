@@ -4,12 +4,6 @@
 >
 > [中文](./README.md) · [Online courses](https://course.front-end-js.top/en)
 
-> **Free for a limited time: all 13 courses — 132 days — are open to everyone right now.**
->
-> No payment, no sign-up. Open any chapter and read it to the end.
->
-> This is temporary. When paid access returns, **36 days stay free permanently** (the first 1–3 days of each course, plus three courses that are free in full). If you want to work through an entire course, now is the cheap moment to do it.
-
 This roadmap answers one specific question: **if you already know how to code, in what order should you learn things to become an engineer who can ship agent systems independently?**
 
 It is not a link dump. Each stage states three things: the problem it solves, how you know you're done, and where you'll get burned if you skip it.
@@ -36,11 +30,11 @@ Before writing any agent code, solve two things: **stating what you want clearly
 | Turning vague requirements into instructions a model executes consistently | You validate prompts against a small test set, not against "that answer felt good" |
 | Putting AI coding tools into a real workflow | You can drive one from exploration through planning, implementation, verification, to commit — not just autocomplete |
 
-**Everything in this stage is free:**
+**The courses in this stage:**
 
-- [Prompt Engineering From Scratch in 5 Days](https://course.front-end-js.top/en/learn/prompt-engineering-5days) — 5 days, fully free
-- [Mastering Claude: From Conversation to Claude Code in 5 Days](https://course.front-end-js.top/en/learn/claude-mastery) — 5 days, fully free
-- [Mastering Codex and the OpenAI Agents SDK in 5 Days](https://course.front-end-js.top/en/learn/codex-mastery) — 5 days, fully free (the last day runs the same task through both Codex and Claude Code for a measured comparison)
+- [Prompt Engineering From Scratch in 5 Days](https://course.front-end-js.top/en/learn/prompt-engineering-5days) — 5 days
+- [Mastering Claude: From Conversation to Claude Code in 5 Days](https://course.front-end-js.top/en/learn/claude-mastery) — 5 days
+- [Mastering Codex and the OpenAI Agents SDK in 5 Days](https://course.front-end-js.top/en/learn/codex-mastery) — 5 days (the last day runs the same task through both Codex and Claude Code for a measured comparison)
 
 ---
 
@@ -56,7 +50,7 @@ Why insist on writing it yourself? Because all of an agent's complexity lives in
 
 You're done when: **you can narrate every state a tool-using turn passes through, from the user pressing enter to text appearing on screen.**
 
-- [From Frontend Engineer to Agent Engineer in 30 Days](https://course.front-end-js.top/en/learn/agent-30days) — 30 days, [D1](https://course.front-end-js.top/en/learn/agent-30days/day-01)–[D3](https://course.front-end-js.top/en/learn/agent-30days/day-03) free
+- [From Frontend Engineer to Agent Engineer in 30 Days](https://course.front-end-js.top/en/learn/agent-30days) — 30 days
 
 ---
 
@@ -68,19 +62,19 @@ Once the core runs, the question shifts from "how do I make it move" to "how doe
 
 MCP solves "write a tool once, use it from any agent." Note that the **spec to follow is 2026-07-28**; a lot of tutorials online are still on 2025-11-25, and the differences are substantial (stateless, per-request capability negotiation, servers no longer initiate JSON-RPC requests, roots deprecated, only stdio and Streamable HTTP transports remain).
 
-- [MCP in 7 Days: Wire Tools Into Any Agent](https://course.front-end-js.top/en/learn/mcp-7days) — 7 days, D1–D2 free
+- [MCP in 7 Days: Wire Tools Into Any Agent](https://course.front-end-js.top/en/learn/mcp-7days) — 7 days
 
 ### Reusing expertise — Agent Skills
 
 Write down what you already know how to do as a `SKILL.md`, so the client opens it when it becomes relevant. The split against MCP: **MCP is the wiring, Skills are the expertise.**
 
-- [Agent Skills in 7 Days: Turn Experience Into Reusable Capability](https://course.front-end-js.top/en/learn/agent-skills-7days) — 7 days, D1–D2 free
+- [Agent Skills in 7 Days: Turn Experience Into Reusable Capability](https://course.front-end-js.top/en/learn/agent-skills-7days) — 7 days
 
 ### Managing context — Context Engineering
 
 Treat the context window as luggage with a fixed capacity. This is the most underrated layer: most "the model got dumber" incidents trace back to context assembly, not to the model.
 
-- [Context Engineering in 5 Days](https://course.front-end-js.top/en/learn/context-engineering-5days) — 5 days, D1 free
+- [Context Engineering in 5 Days](https://course.front-end-js.top/en/learn/context-engineering-5days) — 5 days
 
 ---
 
@@ -90,7 +84,7 @@ The hard part of RAG isn't getting a demo running — it's **proving the thing i
 
 You're done when you can report recall@k, MRR, and nDCG, and explain why a change moved one up and another down.
 
-- [RAG in 14 Days: From Retrieval to Trustworthy Answers](https://course.front-end-js.top/en/learn/rag-14days) — 14 days, D1–D3 free
+- [RAG in 14 Days: From Retrieval to Trustworthy Answers](https://course.front-end-js.top/en/learn/rag-14days) — 14 days
 
 ---
 
@@ -102,7 +96,7 @@ This stage separates "has built an agent" from "can deliver an agent." Three thi
 
 Agents are non-deterministic, so one successful run is not evidence. You turn non-determinism into **pass^k**, turn production incidents into a benchmark set, and put the LLM judge itself through an exam (judges are wrong too, and wrong with systematic bias).
 
-- [Agent Evals and Observability in 7 Days: Turning "Seems Fine" Into Numbers You Can Reproduce](https://course.front-end-js.top/en/learn/agent-evals-7days) — 7 days, D1–D2 free
+- [Agent Evals and Observability in 7 Days: Turning "Seems Fine" Into Numbers You Can Reproduce](https://course.front-end-js.top/en/learn/agent-evals-7days) — 7 days
 
 ### Security — detectors aren't a boundary, architecture is
 
@@ -110,7 +104,7 @@ To judge whether an agent is dangerous, check whether it has the **lethal trifec
 
 Two numbers must always appear together: **ASR (attack success rate) and utility (normal task completion rate)**. Any defense that reports only ASR is not credible — an agent that does nothing at all has an ASR of 0.
 
-- [Agent Security in 5 Days](https://course.front-end-js.top/en/learn/agent-security-5days) — 5 days, D1 free
+- [Agent Security in 5 Days](https://course.front-end-js.top/en/learn/agent-security-5days) — 5 days
 
 ### Frontend — turning an event stream into an interface that doesn't jitter
 
@@ -118,7 +112,7 @@ If your agent has a UI, this layer is routinely underestimated: the rhythm of st
 
 Align with **AG-UI** (MIT) rather than inventing a protocol. Note that the `THINKING_*` events are deprecated — use `REASONING_*`. Many tutorials still show the old names.
 
-- [Frontend Agent UX in 7 Days: From Streaming to Generative UI](https://course.front-end-js.top/en/learn/frontend-agent-ux-7days) — 7 days, D1–D2 free
+- [Frontend Agent UX in 7 Days: From Streaming to Generative UI](https://course.front-end-js.top/en/learn/frontend-agent-ux-7days) — 7 days
 
 ---
 
@@ -130,37 +124,35 @@ Everything above is parts; this is the assembled machine. Finishing one of these
 
 Start from an empty REPL, add one capability per day, and end up with a tool that reads code in a real repository, edits files, runs tests, works in parallel, and is installable and distributable. **Zero frameworks, zero runtime dependencies** — slash commands, SSE parsing, the tool loop, and the MCP protocol are all hand-written.
 
-- [Build Your Own Coding Agent in 21 Days](https://course.front-end-js.top/en/learn/my-coding-agent-21days) — 21 days, D1–D3 free
+- [Build Your Own Coding Agent in 21 Days](https://course.front-end-js.top/en/learn/my-coding-agent-21days) — 21 days
 
 ### Build a multimodal production line
 
 Turn one sentence into an episode of a vertical-format short drama, then scale it into a platform that produces in parallel, supports review, and controls cost. The focus here is **orchestration and budget**: DAGs, retries, spend guardrails, and human review gates.
 
-- [Build an AI Short-Drama Production Pipeline With Agents in 14 Days](https://course.front-end-js.top/en/learn/ai-drama-pipeline) — 14 days, D1–D2 free
+- [Build an AI Short-Drama Production Pipeline With Agents in 14 Days](https://course.front-end-js.top/en/learn/ai-drama-pipeline) — 14 days
 
 ---
 
 ## Full course list
 
-| # | Course | Days | Free |
-|---|---|---|---|
-| 1 | [From Frontend Engineer to Agent Engineer in 30 Days](https://course.front-end-js.top/en/learn/agent-30days) | 30 | D1–D3 |
-| 2 | [Prompt Engineering From Scratch in 5 Days](https://course.front-end-js.top/en/learn/prompt-engineering-5days) | 5 | All |
-| 3 | [Mastering Claude: From Conversation to Claude Code in 5 Days](https://course.front-end-js.top/en/learn/claude-mastery) | 5 | All |
-| 4 | [Mastering Codex and the OpenAI Agents SDK in 5 Days](https://course.front-end-js.top/en/learn/codex-mastery) | 5 | All |
-| 5 | [MCP in 7 Days: Wire Tools Into Any Agent](https://course.front-end-js.top/en/learn/mcp-7days) | 7 | D1–D2 |
-| 6 | [Agent Skills in 7 Days: Turn Experience Into Reusable Capability](https://course.front-end-js.top/en/learn/agent-skills-7days) | 7 | D1–D2 |
-| 7 | [Context Engineering in 5 Days](https://course.front-end-js.top/en/learn/context-engineering-5days) | 5 | D1 |
-| 8 | [Frontend Agent UX in 7 Days: From Streaming to Generative UI](https://course.front-end-js.top/en/learn/frontend-agent-ux-7days) | 7 | D1–D2 |
-| 9 | [RAG in 14 Days: From Retrieval to Trustworthy Answers](https://course.front-end-js.top/en/learn/rag-14days) | 14 | D1–D3 |
-| 10 | [Build an AI Short-Drama Production Pipeline With Agents in 14 Days](https://course.front-end-js.top/en/learn/ai-drama-pipeline) | 14 | D1–D2 |
-| 11 | [Build Your Own Coding Agent in 21 Days](https://course.front-end-js.top/en/learn/my-coding-agent-21days) | 21 | D1–D3 |
-| 12 | [Agent Evals and Observability in 7 Days: Turning "Seems Fine" Into Numbers You Can Reproduce](https://course.front-end-js.top/en/learn/agent-evals-7days) | 7 | D1–D2 |
-| 13 | [Agent Security in 5 Days](https://course.front-end-js.top/en/learn/agent-security-5days) | 5 | D1 |
+| # | Course | Days |
+|---|---|---|
+| 1 | [From Frontend Engineer to Agent Engineer in 30 Days](https://course.front-end-js.top/en/learn/agent-30days) | 30 |
+| 2 | [Prompt Engineering From Scratch in 5 Days](https://course.front-end-js.top/en/learn/prompt-engineering-5days) | 5 |
+| 3 | [Mastering Claude: From Conversation to Claude Code in 5 Days](https://course.front-end-js.top/en/learn/claude-mastery) | 5 |
+| 4 | [Mastering Codex and the OpenAI Agents SDK in 5 Days](https://course.front-end-js.top/en/learn/codex-mastery) | 5 |
+| 5 | [MCP in 7 Days: Wire Tools Into Any Agent](https://course.front-end-js.top/en/learn/mcp-7days) | 7 |
+| 6 | [Agent Skills in 7 Days: Turn Experience Into Reusable Capability](https://course.front-end-js.top/en/learn/agent-skills-7days) | 7 |
+| 7 | [Context Engineering in 5 Days](https://course.front-end-js.top/en/learn/context-engineering-5days) | 5 |
+| 8 | [Frontend Agent UX in 7 Days: From Streaming to Generative UI](https://course.front-end-js.top/en/learn/frontend-agent-ux-7days) | 7 |
+| 9 | [RAG in 14 Days: From Retrieval to Trustworthy Answers](https://course.front-end-js.top/en/learn/rag-14days) | 14 |
+| 10 | [Build an AI Short-Drama Production Pipeline With Agents in 14 Days](https://course.front-end-js.top/en/learn/ai-drama-pipeline) | 14 |
+| 11 | [Build Your Own Coding Agent in 21 Days](https://course.front-end-js.top/en/learn/my-coding-agent-21days) | 21 |
+| 12 | [Agent Evals and Observability in 7 Days: Turning "Seems Fine" Into Numbers You Can Reproduce](https://course.front-end-js.top/en/learn/agent-evals-7days) | 7 |
+| 13 | [Agent Security in 5 Days](https://course.front-end-js.top/en/learn/agent-security-5days) | 5 |
 
 **13 courses, 132 days.** Every chapter exists in both English and Chinese.
-
-The "Free" column above is the permanent free tier that applies **once paid access returns** (36 days in total). **During the current free period that column does not apply — all 132 days are readable.**
 
 There's also a [cross-course interview question bank](https://course.front-end-js.top/en/interviews). Each question ships with the **reasoning path** (what it's testing → how to decompose it → the conclusion → follow-ups to expect), not just bullet points to memorize.
 
@@ -168,11 +160,11 @@ There's also a [cross-course interview question bank](https://course.front-end-j
 
 ## Start here
 
-If you'd rather sample than follow the sequence, start here. These stay free **after** the limited-time period ends, so there's no rush on them specifically:
+If you'd rather sample than follow the sequence, start here:
 
 - [LLM API Basics: messages/roles, Tokens, Streaming, Temperature; What an Agent Actually Is](https://course.front-end-js.top/en/learn/agent-30days/day-01)
 - [How Tool Calling Works: JSON Schema, the tool_use Loop; Hand-Writing an Agent Loop With No Framework](https://course.front-end-js.top/en/learn/agent-30days/day-02)
-- [What a Prompt Is, and Isn't: How the Model Reads Instructions; the Four Elements of Role / Task / Format / Constraints](https://course.front-end-js.top/en/learn/prompt-engineering-5days/day-01) (entire course free)
+- [What a Prompt Is, and Isn't: How the Model Reads Instructions; the Four Elements of Role / Task / Format / Constraints](https://course.front-end-js.top/en/learn/prompt-engineering-5days/day-01)
 - [Why a Protocol: the Host/Client/Server Triangle, JSON-RPC Messages, and Three Primitives](https://course.front-end-js.top/en/learn/mcp-7days/day-01)
 - [Threat modelling: the lethal trifecta, trust boundaries, and how to use two OWASP lists as checklists](https://course.front-end-js.top/en/learn/agent-security-5days/day-01)
 - [What Layers Make Up a Coding Agent: the REPL Skeleton, the Command System, and a Provider-Neutral Gateway Abstraction](https://course.front-end-js.top/en/learn/my-coding-agent-21days/day-01)

@@ -4,12 +4,6 @@
 >
 > [English](./README.en.md) · [在线课程](https://course.front-end-js.top)
 
-> **限时免费：目前全部 13 门课、132 天内容对所有人开放。**
->
-> 不用付费，也不用注册，点开就能读到正文末尾。
->
-> 这是限时的。恢复付费之后仍有 **36 天保持长期免费**（每门课的前 1–3 天，外加三门整门免费的入门课）——但如果你想把某一门完整读完，现在是最省事的时候。
-
 这份路线图回答一个具体问题：**一个已经会写代码的人，按什么顺序学，才能成为能独立交付 Agent 系统的工程师？**
 
 它不是链接收藏夹。每个阶段都写清楚三件事：这一阶段要解决什么问题、学完的判据是什么、以及跳过它会在哪里翻车。
@@ -36,11 +30,11 @@ Agent 相关的资料现在不缺，缺的是顺序。常见的两种走法都�
 | 把模糊需求写成模型能稳定执行的指令 | 你能用一个小样本测试集验证提示词，而不是「感觉这次答得不错」 |
 | 把 AI 编程工具用进真实工作流 | 你能让它从探索、计划、实现、验证一路跑到提交，而不是只会让它补全函数 |
 
-**这一阶段的课程全部免费**：
+**这一阶段的课程**：
 
-- [5 天提示词工程零基础](https://course.front-end-js.top/learn/prompt-engineering-5days) — 5 天，全免费
-- [Claude 高效使用：从对话到 Claude Code](https://course.front-end-js.top/learn/claude-mastery) — 5 天，全免费
-- [Codex 与 OpenAI Agents SDK 高效使用](https://course.front-end-js.top/learn/codex-mastery) — 5 天，全免费（最后一天用同一个任务实测对比 Codex 与 Claude Code）
+- [5 天提示词工程零基础](https://course.front-end-js.top/learn/prompt-engineering-5days) — 5 天
+- [Claude 高效使用：从对话到 Claude Code](https://course.front-end-js.top/learn/claude-mastery) — 5 天
+- [Codex 与 OpenAI Agents SDK 高效使用](https://course.front-end-js.top/learn/codex-mastery) — 5 天（最后一天用同一个任务实测对比 Codex 与 Claude Code）
 
 ---
 
@@ -56,7 +50,7 @@ Agent 相关的资料现在不缺，缺的是顺序。常见的两种走法都�
 
 学完的判据：**你能说清楚一次带工具调用的对话，从用户回车到屏幕出字，中间经过了哪些状态。**
 
-- [30 天从前端工程师到 Agent 工程师](https://course.front-end-js.top/learn/agent-30days) — 30 天，[D1](https://course.front-end-js.top/learn/agent-30days/day-01)–[D3](https://course.front-end-js.top/learn/agent-30days/day-03) 免费
+- [30 天从前端工程师到 Agent 工程师](https://course.front-end-js.top/learn/agent-30days) — 30 天
 
 ---
 
@@ -68,19 +62,19 @@ Agent 相关的资料现在不缺，缺的是顺序。常见的两种走法都�
 
 MCP 解决的是「一个工具写一次，任何 Agent 都能用」。注意**规范以 2026-07-28 为准**，网上大量教程还停在 2025-11-25 那版，差异很大（无状态、按请求协商能力、服务端不再发起 JSON-RPC 请求、roots 已弃用、传输只剩 stdio 与 Streamable HTTP）。
 
-- [7 天 MCP：把工具接进任何 Agent](https://course.front-end-js.top/learn/mcp-7days) — 7 天，D1–D2 免费
+- [7 天 MCP：把工具接进任何 Agent](https://course.front-end-js.top/learn/mcp-7days) — 7 天
 
 ### 复用经验 —— Agent Skills
 
 把你已经做熟的事写成 `SKILL.md`，让客户端在该用的时候自己翻开它。和 MCP 的分工是：**MCP 管接线，Skills 管经验。**
 
-- [7 天 Agent Skills：把经验做成可复用能力](https://course.front-end-js.top/learn/agent-skills-7days) — 7 天，D1–D2 免费
+- [7 天 Agent Skills：把经验做成可复用能力](https://course.front-end-js.top/learn/agent-skills-7days) — 7 天
 
 ### 管住上下文 —— 上下文工程
 
 把上下文窗口当成一件容量固定的行李。这是最容易被低估的一层：多数「模型变笨了」的线上问题，根因在上下文组装，不在模型。
 
-- [5 天上下文工程](https://course.front-end-js.top/learn/context-engineering-5days) — 5 天，D1 免费
+- [5 天上下文工程](https://course.front-end-js.top/learn/context-engineering-5days) — 5 天
 
 ---
 
@@ -90,7 +84,7 @@ RAG 的坑不在「跑通一个 demo」，在于**怎么证明它是对的**。�
 
 学完的判据：你能报出 recall@k、MRR、nDCG 三个数，并解释为什么这次改动让其中一个升了另一个降了。
 
-- [14 天 RAG：从检索到可信回答](https://course.front-end-js.top/learn/rag-14days) — 14 天，D1–D3 免费
+- [14 天 RAG：从检索到可信回答](https://course.front-end-js.top/learn/rag-14days) — 14 天
 
 ---
 
@@ -102,7 +96,7 @@ RAG 的坑不在「跑通一个 demo」，在于**怎么证明它是对的**。�
 
 Agent 是非确定性的，所以单次运行的成功不构成证据。要把非确定性变成 **pass 的 k 次方**，把线上翻的车变成基准集，还要把模型裁判本身考一遍（裁判也会错，而且错得有系统性偏向）。
 
-- [7 天 Agent 评估与可观测](https://course.front-end-js.top/learn/agent-evals-7days) — 7 天，D1–D2 免费
+- [7 天 Agent 评估与可观测](https://course.front-end-js.top/learn/agent-evals-7days) — 7 天
 
 ### 安全 —— 检测器不是边界，架构才是
 
@@ -110,7 +104,7 @@ Agent 是非确定性的，所以单次运行的成功不构成证据。要把�
 
 这里有个必须成对出现的数字：**ASR（攻击成功率）与 utility（正常任务完成率）**。只报 ASR 的防御方案一律不可信——把 Agent 改成什么都不做，ASR 就是 0。
 
-- [5 天 Agent 安全](https://course.front-end-js.top/learn/agent-security-5days) — 5 天，D1 免费
+- [5 天 Agent 安全](https://course.front-end-js.top/learn/agent-security-5days) — 5 天
 
 ### 前端 —— 一条事件流怎么变成不抖动的界面
 
@@ -118,7 +112,7 @@ Agent 是非确定性的，所以单次运行的成功不构成证据。要把�
 
 协议建议对齐 **AG-UI**（MIT）而不是自造。注意 `THINKING_*` 系列已弃用，一律用 `REASONING_*`——网上大量教程还在写旧名字。
 
-- [7 天前端 Agent 体验：从流式到生成式界面](https://course.front-end-js.top/learn/frontend-agent-ux-7days) — 7 天，D1–D2 免费
+- [7 天前端 Agent 体验：从流式到生成式界面](https://course.front-end-js.top/learn/frontend-agent-ux-7days) — 7 天
 
 ---
 
@@ -130,37 +124,35 @@ Agent 是非确定性的，所以单次运行的成功不构成证据。要把�
 
 从一个空壳 REPL 开始，一天加一个能力，最后得到能在真实仓库里读代码、改文件、跑测试、并行干活、可安装可分发的工具。**全程零框架、零运行时依赖**——斜杠命令、SSE 解析、工具循环、MCP 协议全部手写。
 
-- [21 天手搓一个 Coding Agent](https://course.front-end-js.top/learn/my-coding-agent-21days) — 21 天，D1–D3 免费
+- [21 天手搓一个 Coding Agent](https://course.front-end-js.top/learn/my-coding-agent-21days) — 21 天
 
 ### 做一条多模态生产线
 
 把一句话变成一集竖屏短剧，再把它扩成能并行产出、可审核、可控成本的平台。这个方向的重点是**编排与成本**：DAG、重试、预算护栏、人工审核卡点。
 
-- [14 天用 Agent 搭一条 AI 短剧生产线](https://course.front-end-js.top/learn/ai-drama-pipeline) — 14 天，D1–D2 免费
+- [14 天用 Agent 搭一条 AI 短剧生产线](https://course.front-end-js.top/learn/ai-drama-pipeline) — 14 天
 
 ---
 
 ## 完整课程表
 
-| # | 课程 | 天数 | 免费试读 |
-|---|---|---|---|
-| 1 | [30 天从前端工程师到 Agent 工程师](https://course.front-end-js.top/learn/agent-30days) | 30 | D1–D3 |
-| 2 | [5 天提示词工程零基础](https://course.front-end-js.top/learn/prompt-engineering-5days) | 5 | 全部 |
-| 3 | [Claude 高效使用：从对话到 Claude Code](https://course.front-end-js.top/learn/claude-mastery) | 5 | 全部 |
-| 4 | [Codex 与 OpenAI Agents SDK 高效使用](https://course.front-end-js.top/learn/codex-mastery) | 5 | 全部 |
-| 5 | [7 天 MCP：把工具接进任何 Agent](https://course.front-end-js.top/learn/mcp-7days) | 7 | D1–D2 |
-| 6 | [7 天 Agent Skills：把经验做成可复用能力](https://course.front-end-js.top/learn/agent-skills-7days) | 7 | D1–D2 |
-| 7 | [5 天上下文工程](https://course.front-end-js.top/learn/context-engineering-5days) | 5 | D1 |
-| 8 | [7 天前端 Agent 体验：从流式到生成式界面](https://course.front-end-js.top/learn/frontend-agent-ux-7days) | 7 | D1–D2 |
-| 9 | [14 天 RAG：从检索到可信回答](https://course.front-end-js.top/learn/rag-14days) | 14 | D1–D3 |
-| 10 | [14 天用 Agent 搭一条 AI 短剧生产线](https://course.front-end-js.top/learn/ai-drama-pipeline) | 14 | D1–D2 |
-| 11 | [21 天手搓一个 Coding Agent](https://course.front-end-js.top/learn/my-coding-agent-21days) | 21 | D1–D3 |
-| 12 | [7 天 Agent 评估与可观测](https://course.front-end-js.top/learn/agent-evals-7days) | 7 | D1–D2 |
-| 13 | [5 天 Agent 安全](https://course.front-end-js.top/learn/agent-security-5days) | 5 | D1 |
+| # | 课程 | 天数 |
+|---|---|---|
+| 1 | [30 天从前端工程师到 Agent 工程师](https://course.front-end-js.top/learn/agent-30days) | 30 |
+| 2 | [5 天提示词工程零基础](https://course.front-end-js.top/learn/prompt-engineering-5days) | 5 |
+| 3 | [Claude 高效使用：从对话到 Claude Code](https://course.front-end-js.top/learn/claude-mastery) | 5 |
+| 4 | [Codex 与 OpenAI Agents SDK 高效使用](https://course.front-end-js.top/learn/codex-mastery) | 5 |
+| 5 | [7 天 MCP：把工具接进任何 Agent](https://course.front-end-js.top/learn/mcp-7days) | 7 |
+| 6 | [7 天 Agent Skills：把经验做成可复用能力](https://course.front-end-js.top/learn/agent-skills-7days) | 7 |
+| 7 | [5 天上下文工程](https://course.front-end-js.top/learn/context-engineering-5days) | 5 |
+| 8 | [7 天前端 Agent 体验：从流式到生成式界面](https://course.front-end-js.top/learn/frontend-agent-ux-7days) | 7 |
+| 9 | [14 天 RAG：从检索到可信回答](https://course.front-end-js.top/learn/rag-14days) | 14 |
+| 10 | [14 天用 Agent 搭一条 AI 短剧生产线](https://course.front-end-js.top/learn/ai-drama-pipeline) | 14 |
+| 11 | [21 天手搓一个 Coding Agent](https://course.front-end-js.top/learn/my-coding-agent-21days) | 21 |
+| 12 | [7 天 Agent 评估与可观测](https://course.front-end-js.top/learn/agent-evals-7days) | 7 |
+| 13 | [5 天 Agent 安全](https://course.front-end-js.top/learn/agent-security-5days) | 5 |
 
 合计 **13 门课 / 132 天**，全部中英双语。
-
-上表「免费试读」一列是**恢复付费后**的长期免费范围（合计 36 天）。**限时免费期间这一列不生效——整张表的 132 天全部可读。**
 
 配套还有一个[跨课程面试题库](https://course.front-end-js.top/interviews)，每道题除了答题要点还写了**分析过程**（这题在考什么 → 怎么拆 → 结论 → 可预期的追问），目的是教推导而不是给要点背。
 
@@ -168,11 +160,11 @@ Agent 是非确定性的，所以单次运行的成功不构成证据。要把�
 
 ## 先看看质量
 
-不想按顺序走的，从这几天开始最快。它们在限时免费结束后**依然免费**，所以不急也可以先收藏：
+不想按顺序走的，从这几天开始最快：
 
 - [LLM API 基础：messages/roles、token、流式、temperature；Agent 到底是什么](https://course.front-end-js.top/learn/agent-30days/day-01)
 - [工具调用原理：JSON Schema、tool_use 循环；不用框架手写 Agent Loop](https://course.front-end-js.top/learn/agent-30days/day-02)
-- [提示词是什么、不是什么：模型如何读指令；角色 / 任务 / 格式 / 约束四要素](https://course.front-end-js.top/learn/prompt-engineering-5days/day-01)（整门课免费）
+- [提示词是什么、不是什么：模型如何读指令；角色 / 任务 / 格式 / 约束四要素](https://course.front-end-js.top/learn/prompt-engineering-5days/day-01)
 - [为什么需要一个协议：host / client / server 三角、JSON-RPC 消息与三种原语](https://course.front-end-js.top/learn/mcp-7days/day-01)
 - [威胁模型：致命三件套、信任边界，以及两张 OWASP 清单怎么当检查表用](https://course.front-end-js.top/learn/agent-security-5days/day-01)
 - [一个 Coding Agent 由哪几层组成：REPL 骨架、命令系统与不绑厂商的网关抽象](https://course.front-end-js.top/learn/my-coding-agent-21days/day-01)
