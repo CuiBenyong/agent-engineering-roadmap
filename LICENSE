@@ -2,8 +2,9 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Copyright (c) 2026 Dayward AI (逐日AI)
 
-This work — the Agent Engineering Roadmap, including README.md and README.en.md —
-is licensed under the Creative Commons Attribution 4.0 International License.
+This work — the Agent Engineering Roadmap, including README.md, README.en.md,
+and the beginners/ documents — is licensed under the Creative Commons
+Attribution 4.0 International License.
 
 You are free to:
 
@@ -26,6 +27,5 @@ Human-readable summary: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Note on scope: this license covers the roadmap documents in this repository.
-The courses it links to at https://course.front-end-js.top are separate works
-with their own terms; free chapters are readable without payment, paid chapters
-are not covered by this license.
+The courses it links to at https://zhurilab.com are separate works
+with their own terms and are not covered by this repository's license.
